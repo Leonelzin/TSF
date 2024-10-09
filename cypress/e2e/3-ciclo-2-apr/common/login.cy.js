@@ -10,7 +10,7 @@ describe('Teste funcional e smoke da tela de login do AVA Unievangélica', () =>
 
     // 2. Verificação de elementos da tela (Smoke Test)
     
-    // Verifica se o campo de nome de usuário existe e está visível
+    // Verifica se o campo de "identificação de usuário" existe e está visível
     cy.get('input#username')
       .should('be.visible')
       .and('have.attr', 'placeholder', 'Identificação de usuário*'); // Verifica o placeholder
@@ -25,7 +25,7 @@ describe('Teste funcional e smoke da tela de login do AVA Unievangélica', () =>
       .should('be.visible')
       .and('contain', 'Acessar'); // Verifica o texto no botão de login
     
-    // Verifica se o link de recuperação de senha está visível usando o seletor CSS
+    // Verifica se o link de recuperação de usuário | senha está visível
     cy.get('a[href*="forgot_password.php"]')
       .should('be.visible'); // Verifica se o link está visível
     
