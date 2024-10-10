@@ -4,12 +4,12 @@
 - Este projeto foi desenvolvido com fins educacionais para a disciplina de Verificação e Validação de Software da Universidade Unievangélica.
 
 **Descrição**
-Os testes abordam a verificação de elementos na tela de login, como campos de nome de usuário, senha e botão de login. 
-Além disso, há uma verificação funcional para simular o fluxo de login de um usuário e garantir que o sistema redireciona corretamente após o login bem-sucedido.
+- Os testes abordam a verificação de elementos na tela de login, como campos de nome de usuário, senha e botão de login. 
+- Além disso, há uma verificação funcional para simular o fluxo de login de um usuário e garantir que o sistema redireciona corretamente após o login bem-sucedido.
 
 **O que é testado?**
-Smoke Test da Interface de Login:
-Verifica se os elementos principais da tela de login estão presentes e visíveis (campos de usuário, senha, botão de login e link de recuperação de senha).
+- Smoke Test da Interface de Login:
+- Verifica se os elementos principais da tela de login estão presentes e visíveis (campos de usuário, senha, botão de login e link de recuperação de senha).
 
 **Teste Funcional de Login:**
 - Simula um login com credenciais válidas.
