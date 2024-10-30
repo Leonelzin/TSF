@@ -24,7 +24,7 @@ npx ts-jest config:init
 mkdir src __tests__
 touch src/averagetest.ts
 ```
-
+---
 ### Fase 1: Escrevendo os Testes (Fase Red) 🔴
 Instruções:
 No arquivo ../tests/averagetest.ts, adicione os seguintes testes:
@@ -62,7 +62,9 @@ export function calculateAverage(n1: number, n2: number, n3: number): number {
     return (n1 + n2 + n3) / 2; // Dividir por 2 ao invés de 3
 }
 ```
+---
 Execute os testes para garantir que eles falham inicialmente:
 ```bash
 npm test
 ```
+---
