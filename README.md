@@ -1,7 +1,7 @@
 # Algoritmo para Calcular a Média de Três Notas usando TDD 📊
 
 ## Objetivo 🎯
-Neste projeto, você aplicará o Test-Driven Development (TDD) para desenvolver um algoritmo que calcule a média de três notas. O processo envolve escrever testes, implementar o algoritmo e refatorar o código.
+Neste projeto, você aplicará o Test-Driven Development (TDD) para desenvolver um algoritmo que calcule a média de três notas. O processo envolve escrever testes, implementar o algoritmo e revisar a falha.
 
 ## Pré-requisitos ⚙️
 
