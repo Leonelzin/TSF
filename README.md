@@ -1,7 +1,7 @@
 # Algoritmo para Calcular a Média de Três Notas usando TDD 📊
 
 ## Objetivo 🎯
-Neste projeto, você aplicará o Test-Driven Development (TDD) para desenvolver um algoritmo que calcule a média de três notas. O processo envolve escrever testes, implementar o algoritmo e refatorar o código.
+Neste projeto, você aplicará o Test-Driven Development (TDD) para desenvolver um algoritmo que calcule a média de três notas. O processo envolve escrever testes e implementar o algoritmo.
 
 ## Pré-requisitos ⚙️
 
@@ -61,7 +61,7 @@ export function calculateAverage(n1: number, n2: number, n3: number): number {
     return (n1 + n2 + n3) / 3;
   }
 ```
-Execute os testes para garantir que eles falham inicialmente:
+Execute os testes:
 ```bash
 npm test
 ```
