@@ -27,7 +27,7 @@ touch src/averagetest.ts
 
 ### Fase 1: Escrevendo os Testes (Fase Red) 🔴
 Instruções:
-No arquivo __tests__/averagetest.ts, adicione os seguintes testes:
+No arquivo ../tests/averagetest.ts, adicione os seguintes testes:
 ```bash
 //Aluno: Douglas Leonel de Almeida - 2110213
 
@@ -53,7 +53,15 @@ test('Calcula a média corretamente para notas com decimais', () => {
   expect(calculateAverage(7.5, 8.2, 9.1)).toBeCloseTo(8.27, 2);
 });
 ```
+No arquivo ../src/average.ts, adicione o seguinte teste:
+```bash
+// Aluno: Douglas Leonel de Almeida - 2110213
 
+export function calculateAverage(n1: number, n2: number, n3: number): number {
+    // Alterando a lógica da média para garantir que os testes falhem
+    return (n1 + n2 + n3) / 2; // Dividir por 2 ao invés de 3
+}
+```
 Execute os testes para garantir que eles falham inicialmente:
 ```bash
 npm test
