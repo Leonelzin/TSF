@@ -24,7 +24,7 @@ npx ts-jest config:init
 mkdir src __tests__
 touch src/averagetest.ts
 ```
-
+---
 ### Fase 2: Implementando o Algoritmo (Fase Green) 🟢
 Instruções:
 No arquivo ../tests/averagetest.ts, adicione os seguintes testes:
@@ -61,7 +61,9 @@ export function calculateAverage(n1: number, n2: number, n3: number): number {
     return (n1 + n2 + n3) / 3;
   }
 ```
+---
 Execute os testes:
 ```bash
 npm test
 ```
+---
