@@ -21,3 +21,8 @@ test('Calcula a média corretamente para notas máximas', () => {
 test('Calcula a média corretamente para notas com decimais', () => {
   expect(calculateAverage(7.5, 8.2, 9.1)).toBeCloseTo(8.27, 2);
 });
+
+// Teste 5: Lança erro para notas fora do intervalo válido
+test('Lança erro para notas fora do intervalo válido', () => {
+  expect(() => calculateAverage(11, 8, 9)).toThrow('Nota inválida');
+});
